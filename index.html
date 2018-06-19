@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real Estate Deal Tank</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script type="text/javascript" src='assets/javascript/app.js'></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron jumbo-custom">
+                    <h1 class="text-center">Real Estate Deal Tank</h1>
+                    <h2 class="text-center">A CPC Corporation</h2>
+                    <div class="nameInfo">
+                        <div class="col-md-4">
+                            <p class="text-center">John Longo</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">Lead Originator</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">jlongo@capodagli.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Add Information</div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="companyName">Company Name (If Applicable):</label>
+                                    <input type="text" class="form-control" id="companyName" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="text" class="form-control" id="email" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phoneNumber">Phone Number:</label>
+                                    <input type="number" class="form-control" id="phoneNumber" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="assetType">Asset Type:</label>
+                                    <input type="number" class="form-control" id="assetType" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="numberOfUnits">Number of Units:</label>
+                                    <input type="number" class="form-control" id="numberOfUnits" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="squareFootage">Square Footage:</label>
+                                    <input type="number" class="form-control" id="squareFootage" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="dealType">Deal Type:</label>
+                                    <input type="text" class="form-control" id="dealType" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="acquisitionCost">Acquisition Cost:</label>
+                                    <input type="number" class="form-control" id="acquisitionCost" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="constructionCost">Construction/Rehab Cost:</label>
+                                    <input type="number" class="form-control" id="constructionCost" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="projectSellingPrice">Project Selling Price:</label>
+                                    <input type="number" class="form-control" id="projectSellingPrice" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="projectedRents">Projected Rents:</label>
+                                    <input type="number" class="form-control" id="projectedRents" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="annualNOI">Annual NOI:</label>
+                                    <input type="number" class="form-control" id="annualNOI" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="loanToCostRequested">Loan to Cost Requested:</label>
+                                    <input type="number" class="form-control" id="loanToCostRequested" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="loanAmountRequested">Loan Amount Requested:</label>
+                                    <input type="number" class="form-control" id="loanAmountRequested" placeholder="">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-custom" id="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
